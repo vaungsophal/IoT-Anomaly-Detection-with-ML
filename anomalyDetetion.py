@@ -36,7 +36,8 @@ def balance_data(X, y):
     return smote.fit_resample(X, y)
 
 # Streamlit app
-st.title("Machine Learning Model Runner")
+st.title("IoT Anomaly Detection")
+
 st.sidebar.header("Choose Model")
 
 # File upload
